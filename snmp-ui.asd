@@ -16,5 +16,7 @@
   :components ((:module "interface"
                 :serial t
 		:components ((:file "package")
+			     #+lispworks
                              (:file "fli-templates")
+			     #+lispworks
                              (:file "mibrowser")))))
